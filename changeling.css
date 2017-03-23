@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.8rem;
+	margin: 15px;
+}
+
+body {
+	font-family: 'Arimo', sans-serif;
+	font-size: 17px;
+	margin: 8px;
+	border: 1px solid black; 
+	background-image: url('images/bg.jpg')
+}
+
+.block {
+	background-color: rgba(255,255,255,0.95); 
+	margin: 2px; 
+	border: 1px solid black; 
+	padding: 8px; 
+}
+
+.header {
+
+}
+
+.remember {
+}
+
+.header__container {
+	display: inline-block;
+	width: 285px;
+}
+
+.header__label {
+	font-weight: bold;
+}
+
+.header__input {
+	width: 150px;
+	outline: none;
+	border: none;
+	box-shadow: 0 0 5px rgb(200, 200, 200);
+}
+
+.header__filled {
+	width: 150px;
+	display: inline-block;
+}
+
+.header__filled:hover {
+	box-shadow: 0 0 5px rgb(200, 200, 200);
+}
+
+.hide {
+	display: none
+}
+
+
+/*поворот экрана на мобильных*/
+	@-ms-viewport {
+	    width: device-width;
+	}
+
+	@viewport {
+	    width: device-width;
+	}
